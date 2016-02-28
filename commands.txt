@@ -1,3 +1,12 @@
-You may well ask: “How can I start using HTML5 if older browsers don’t support it?” But the question itself is misleading. HTML5 is not one big thing; it is a collection of individual features. So you can’t detect “HTML5 support,” because that doesn’t make any sense. But you can detect support for individual features, like canvas, video,  or geolocation. 
-
-new branch changes
+git init
+git remote add origin https://github.com/olenatretyak/UIcourse_lecture2
+git add commands.txt
+git commit -m "add commands.txt"
+git push origin master
+git checkout -b new-branch
+git add.
+gitt commit -m "add new line"
+git push origin new-branch
+git checkout master
+git merge new-branch
+git push origin master
